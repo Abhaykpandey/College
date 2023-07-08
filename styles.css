@@ -1,0 +1,85 @@
+.page
+{
+	width:1330px;
+	height:auto;
+	border-style:groove;
+}
+
+.header
+{
+	width:1330px;
+	height:310px;
+	border-style:groove;
+	background-color:blue;
+	background-image:url('abc.jpg');
+	background-repeat:no-repeat;
+	
+}
+
+.link
+{
+	 width:1330px;
+	 height:23px;
+	 margin-top:5px;
+	 border-style:groove;
+	 background-color:blue;
+}
+.link a
+{
+	color:rgb(245,246,251);
+	text-decoration:none;
+	
+}
+.link a:hover
+{
+	background-color:rgb(245,246,251);
+	color:rgb(12,100,198);
+	
+}
+
+.bodypart
+{
+	width:1330px;
+	height:600px;
+	border-style:groove;
+	margin-top:5px;
+	
+}
+.bodypart .imagepart
+{
+width:950px;
+height:390px;
+border-style:groove;
+background-image:url('clg.gif');	
+background-repeat:no-repeat;
+display:inline-block;
+	
+}
+
+.bodypart .newspart
+{
+	width:340px;
+	height:580px;
+	border-style:groove;
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+	
+	
+}
+.bodypart .newspart h2
+{
+	color:green;
+	margin-left:90px;
+}
+
+.bodypart .newspart .news
+{
+	width:340px;
+	height:500px;
+	
+}
+.bodypart .newspart .news h4
+{
+	color:blue;
+}

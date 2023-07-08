@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Login Form</title>
+<script>
+function myFunction()
+{
+var un=document.forms["myForm"]["Uname"].value;
+var pw=document.forms["myForm"]["Pass"].value;
+if(un=="abhaypandey" && pw=="pandey123")
+{
+window.location.href="welcome.html";
+}
+else
+{
+alert("Invalid UserName and Password");
+}
+}
+</script>
+<style>
+body{
+background:#ffcc00;
+
+}
+.div1{
+width:350px;
+margin:auto;
+margin:10 0 0 450px;
+overflow:hidden;
+padding:75px;
+background:#003300;
+}
+h2
+{
+text-align:ce;
+padding:10px;
+color:#003300;
+}
+label
+{
+color:white;
+padding-left:10px;
+}
+.inputText
+{
+width:300px;
+height:30px;
+border:none;
+border-radius:2px;
+padding-left:8px;
+}
+#logButton
+{
+width:300px;
+height:30px;
+border:none;
+border-radius:10px;
+padding-left:7px;
+color:black;
+font-size:16px;
+}
+
+</style>
+</head>
+<body>
+<center><h2>Login Form</h2></center>
+<div class="div1">
+<form name="myForm" method="post">
+<label>User Name</label>
+<input type="text" name="Abhay Pandey" class="inputText" placeholder="User Name">
+<br><br>
+<label>Password</label>
+<input type="password" name="Pandey@123" class="inputText" placeholder="password">
+<br><br>
+<input type="button" name="log" id="logButton" value="Login" onclick="myFunction()"><br><br>
+
+</form>
+</body>
+</html>
